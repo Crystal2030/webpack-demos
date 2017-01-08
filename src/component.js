@@ -1,3 +1,3 @@
-module.export = function(){
+export default () => {
 	alert('component');
 }

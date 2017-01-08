@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+import Button from './components/Button/Button';
+
+/*
 class HelloWorld extends Component{
 	render(){
 		return(
@@ -8,5 +11,7 @@ class HelloWorld extends Component{
 		)
 	}
 }
+*/
 
-ReactDOM.render(<HelloWorld/>, document.getElementById('app'));
+let root = document.getElementById('app');
+ReactDOM.render(<Button/>, root);
